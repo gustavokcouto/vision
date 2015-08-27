@@ -1,0 +1,11 @@
+/home/gustavo/git/learnopengl/build/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir
+/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir
+/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir
+/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir
+/home/gustavo/git/learnopengl/build/external/CMakeFiles/GLEW_190.dir
+/home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir
+/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir
+/home/gustavo/git/learnopengl/build/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir
+/home/gustavo/git/learnopengl/build/external/glfw-3.0.3/docs/CMakeFiles/docs.dir
+/home/gustavo/git/learnopengl/build/CMakeFiles/tutorial01_first_window.dir
+/home/gustavo/git/learnopengl/build/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir

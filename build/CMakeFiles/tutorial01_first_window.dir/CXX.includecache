@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/glew-1.9.0/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+/home/gustavo/git/learnopengl/HelloWindow.cpp
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+
