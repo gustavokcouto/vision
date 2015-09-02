@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gustavo/git/learnopengl
+CMAKE_SOURCE_DIR = /home/gustavo/git/vision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gustavo/git/learnopengl/build
+CMAKE_BINARY_DIR = /home/gustavo/git/vision/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -57,47 +57,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"libassimp3.0-r1270-OGLtuts\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -110,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gustavo/git/learnopengl/build/CMakeFiles /home/gustavo/git/learnopengl/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gustavo/git/vision/build/CMakeFiles /home/gustavo/git/vision/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gustavo/git/learnopengl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gustavo/git/vision/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,19 +112,6 @@ tutorial01_first_window/fast:
 .PHONY : tutorial01_first_window/fast
 
 #=============================================================================
-# Target rules for targets named ANTTWEAKBAR_116_OGLCORE_GLFW
-
-# Build rule for target.
-ANTTWEAKBAR_116_OGLCORE_GLFW: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ANTTWEAKBAR_116_OGLCORE_GLFW
-.PHONY : ANTTWEAKBAR_116_OGLCORE_GLFW
-
-# fast build rule for target.
-ANTTWEAKBAR_116_OGLCORE_GLFW/fast:
-	$(MAKE) -f external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/build.make external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/build
-.PHONY : ANTTWEAKBAR_116_OGLCORE_GLFW/fast
-
-#=============================================================================
 # Target rules for targets named GLEW_190
 
 # Build rule for target.
@@ -190,97 +136,6 @@ GLFW_303: cmake_check_build_system
 GLFW_303/fast:
 	$(MAKE) -f external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/build.make external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/build
 .PHONY : GLFW_303/fast
-
-#=============================================================================
-# Target rules for targets named docs
-
-# Build rule for target.
-docs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 docs
-.PHONY : docs
-
-# fast build rule for target.
-docs/fast:
-	$(MAKE) -f external/glfw-3.0.3/docs/CMakeFiles/docs.dir/build.make external/glfw-3.0.3/docs/CMakeFiles/docs.dir/build
-.PHONY : docs/fast
-
-#=============================================================================
-# Target rules for targets named zlib
-
-# Build rule for target.
-zlib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zlib
-.PHONY : zlib
-
-# fast build rule for target.
-zlib/fast:
-	$(MAKE) -f external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/build.make external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/build
-.PHONY : zlib/fast
-
-#=============================================================================
-# Target rules for targets named assimp
-
-# Build rule for target.
-assimp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assimp
-.PHONY : assimp
-
-# fast build rule for target.
-assimp/fast:
-	$(MAKE) -f external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build
-.PHONY : assimp/fast
-
-#=============================================================================
-# Target rules for targets named BulletSoftBody
-
-# Build rule for target.
-BulletSoftBody: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BulletSoftBody
-.PHONY : BulletSoftBody
-
-# fast build rule for target.
-BulletSoftBody/fast:
-	$(MAKE) -f external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
-.PHONY : BulletSoftBody/fast
-
-#=============================================================================
-# Target rules for targets named BulletCollision
-
-# Build rule for target.
-BulletCollision: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BulletCollision
-.PHONY : BulletCollision
-
-# fast build rule for target.
-BulletCollision/fast:
-	$(MAKE) -f external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/build.make external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/build
-.PHONY : BulletCollision/fast
-
-#=============================================================================
-# Target rules for targets named BulletDynamics
-
-# Build rule for target.
-BulletDynamics: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BulletDynamics
-.PHONY : BulletDynamics
-
-# fast build rule for target.
-BulletDynamics/fast:
-	$(MAKE) -f external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build.make external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build
-.PHONY : BulletDynamics/fast
-
-#=============================================================================
-# Target rules for targets named LinearMath
-
-# Build rule for target.
-LinearMath: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LinearMath
-.PHONY : LinearMath
-
-# fast build rule for target.
-LinearMath/fast:
-	$(MAKE) -f external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build
-.PHONY : LinearMath/fast
 
 HelloWindow.o: HelloWindow.cpp.o
 .PHONY : HelloWindow.o
@@ -313,22 +168,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... tutorial01_first_window"
-	@echo "... ANTTWEAKBAR_116_OGLCORE_GLFW"
 	@echo "... GLEW_190"
 	@echo "... GLFW_303"
-	@echo "... docs"
-	@echo "... zlib"
-	@echo "... assimp"
-	@echo "... BulletSoftBody"
-	@echo "... BulletCollision"
-	@echo "... BulletDynamics"
-	@echo "... LinearMath"
 	@echo "... HelloWindow.o"
 	@echo "... HelloWindow.i"
 	@echo "... HelloWindow.s"

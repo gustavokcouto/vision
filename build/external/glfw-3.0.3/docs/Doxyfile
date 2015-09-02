@@ -52,7 +52,7 @@ PROJECT_LOGO           =
 # If a relative path is entered, it will be relative to the location
 # where doxygen was started. If left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/docs
+OUTPUT_DIRECTORY       = /home/gustavo/git/vision/build/external/glfw-3.0.3/docs
 
 # If the CREATE_SUBDIRS tag is set to YES, then doxygen will create
 # 4096 sub-directories (in 2 levels) under the output directory of each output
@@ -641,7 +641,7 @@ WARN_FORMAT            = "$file:$line: $text"
 # and error messages should be written. If left blank the output is written
 # to stderr.
 
-WARN_LOGFILE           = /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/docs/warnings.txt
+WARN_LOGFILE           = /home/gustavo/git/vision/build/external/glfw-3.0.3/docs/warnings.txt
 
 #---------------------------------------------------------------------------
 # configuration options related to the input files
@@ -653,17 +653,17 @@ WARN_LOGFILE           = /home/gustavo/git/learnopengl/build/external/glfw-3.0.3
 # with spaces.
 
 INPUT                  =                          \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/include/GLFW/glfw3.h       \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/include/GLFW/glfw3native.h \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/main.dox              \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/news.dox              \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/quick.dox             \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/moving.dox            \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/build.dox             \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/context.dox           \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/monitor.dox           \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/window.dox            \
-                         /home/gustavo/git/learnopengl/external/glfw-3.0.3/docs/compat.dox
+                         /home/gustavo/git/vision/external/glfw-3.0.3/include/GLFW/glfw3.h       \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/include/GLFW/glfw3native.h \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/main.dox              \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/news.dox              \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/quick.dox             \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/moving.dox            \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/build.dox             \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/context.dox           \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/monitor.dox           \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/window.dox            \
+                         /home/gustavo/git/vision/external/glfw-3.0.3/docs/compat.dox
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding, which is
@@ -723,7 +723,7 @@ EXCLUDE_SYMBOLS        = APIENTRY GLFWAPI
 # directories that contain example code fragments that are included (see
 # the \include command).
 
-EXAMPLE_PATH           = /home/gustavo/git/learnopengl/external/glfw-3.0.3/examples
+EXAMPLE_PATH           = /home/gustavo/git/vision/external/glfw-3.0.3/examples
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp

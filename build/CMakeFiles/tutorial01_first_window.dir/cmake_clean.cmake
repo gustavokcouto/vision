@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o"
-  "tutorial01_first_window.pdb"
-  "tutorial01_first_window"
+  "../tutorial01_first_window.pdb"
+  "../tutorial01_first_window"
 )
 
 # Per-language clean rules from dependency scanning.

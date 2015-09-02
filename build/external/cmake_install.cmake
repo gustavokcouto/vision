@@ -1,4 +1,4 @@
-# Install script for directory: /home/gustavo/git/learnopengl/external
+# Install script for directory: /home/gustavo/git/vision/external
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/gustavo/git/learnopengl/build/external/glfw-3.0.3/cmake_install.cmake")
-  INCLUDE("/home/gustavo/git/learnopengl/build/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
-  INCLUDE("/home/gustavo/git/learnopengl/build/external/assimp-3.0.1270/code/cmake_install.cmake")
-  INCLUDE("/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
-  INCLUDE("/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
-  INCLUDE("/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
-  INCLUDE("/home/gustavo/git/learnopengl/build/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
+  INCLUDE("/home/gustavo/git/vision/build/external/glfw-3.0.3/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

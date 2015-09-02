@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gustavo/git/learnopengl
+CMAKE_SOURCE_DIR = /home/gustavo/git/vision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gustavo/git/learnopengl/build
+CMAKE_BINARY_DIR = /home/gustavo/git/vision/build
 
 # Include any dependencies generated for this target.
 include external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/depend.make
@@ -51,17 +51,17 @@ include external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.o: ../external/glfw-3.0.3/src/clipboard.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/clipboard.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/clipboard.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/clipboard.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/clipboard.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/clipboard.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/clipboard.c > CMakeFiles/GLFW_303.dir/clipboard.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/clipboard.c > CMakeFiles/GLFW_303.dir/clipboard.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/clipboard.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/clipboard.c -o CMakeFiles/GLFW_303.dir/clipboard.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/clipboard.c -o CMakeFiles/GLFW_303.dir/clipboard.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.o.requires
@@ -74,17 +74,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clipboard.c.o.provides.build: ex
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.o: ../external/glfw-3.0.3/src/context.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/context.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/context.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/context.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/context.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/context.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/context.c > CMakeFiles/GLFW_303.dir/context.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/context.c > CMakeFiles/GLFW_303.dir/context.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/context.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/context.c -o CMakeFiles/GLFW_303.dir/context.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/context.c -o CMakeFiles/GLFW_303.dir/context.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.o.requires
@@ -97,17 +97,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/context.c.o.provides.build: exte
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.o: ../external/glfw-3.0.3/src/gamma.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/gamma.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/gamma.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/gamma.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/gamma.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/gamma.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/gamma.c > CMakeFiles/GLFW_303.dir/gamma.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/gamma.c > CMakeFiles/GLFW_303.dir/gamma.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/gamma.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/gamma.c -o CMakeFiles/GLFW_303.dir/gamma.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/gamma.c -o CMakeFiles/GLFW_303.dir/gamma.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.o.requires
@@ -120,17 +120,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/gamma.c.o.provides.build: extern
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.o: ../external/glfw-3.0.3/src/init.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/init.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/init.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/init.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/init.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/init.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/init.c > CMakeFiles/GLFW_303.dir/init.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/init.c > CMakeFiles/GLFW_303.dir/init.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/init.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/init.c -o CMakeFiles/GLFW_303.dir/init.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/init.c -o CMakeFiles/GLFW_303.dir/init.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.o.requires
@@ -143,17 +143,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/init.c.o.provides.build: externa
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.o: ../external/glfw-3.0.3/src/input.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/input.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/input.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/input.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/input.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/input.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/input.c > CMakeFiles/GLFW_303.dir/input.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/input.c > CMakeFiles/GLFW_303.dir/input.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/input.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/input.c -o CMakeFiles/GLFW_303.dir/input.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/input.c -o CMakeFiles/GLFW_303.dir/input.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.o.requires
@@ -166,17 +166,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/input.c.o.provides.build: extern
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.o: ../external/glfw-3.0.3/src/joystick.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/joystick.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/joystick.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/joystick.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/joystick.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/joystick.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/joystick.c > CMakeFiles/GLFW_303.dir/joystick.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/joystick.c > CMakeFiles/GLFW_303.dir/joystick.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/joystick.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/joystick.c -o CMakeFiles/GLFW_303.dir/joystick.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/joystick.c -o CMakeFiles/GLFW_303.dir/joystick.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.o.requires
@@ -189,17 +189,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/joystick.c.o.provides.build: ext
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.o: ../external/glfw-3.0.3/src/monitor.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/monitor.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/monitor.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/monitor.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/monitor.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/monitor.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/monitor.c > CMakeFiles/GLFW_303.dir/monitor.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/monitor.c > CMakeFiles/GLFW_303.dir/monitor.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/monitor.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/monitor.c -o CMakeFiles/GLFW_303.dir/monitor.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/monitor.c -o CMakeFiles/GLFW_303.dir/monitor.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.o.requires
@@ -212,17 +212,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/monitor.c.o.provides.build: exte
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.o: ../external/glfw-3.0.3/src/time.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/time.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/time.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/time.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/time.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/time.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/time.c > CMakeFiles/GLFW_303.dir/time.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/time.c > CMakeFiles/GLFW_303.dir/time.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/time.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/time.c -o CMakeFiles/GLFW_303.dir/time.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/time.c -o CMakeFiles/GLFW_303.dir/time.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.o.requires
@@ -235,17 +235,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/time.c.o.provides.build: externa
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.o: ../external/glfw-3.0.3/src/window.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/window.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/window.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/window.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/window.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/window.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/window.c > CMakeFiles/GLFW_303.dir/window.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/window.c > CMakeFiles/GLFW_303.dir/window.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/window.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/window.c -o CMakeFiles/GLFW_303.dir/window.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/window.c -o CMakeFiles/GLFW_303.dir/window.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.o.requires
@@ -258,17 +258,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/window.c.o.provides.build: exter
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.o: ../external/glfw-3.0.3/src/x11_clipboard.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_clipboard.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_clipboard.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_clipboard.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_clipboard.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_clipboard.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_clipboard.c > CMakeFiles/GLFW_303.dir/x11_clipboard.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_clipboard.c > CMakeFiles/GLFW_303.dir/x11_clipboard.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_clipboard.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_clipboard.c -o CMakeFiles/GLFW_303.dir/x11_clipboard.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_clipboard.c -o CMakeFiles/GLFW_303.dir/x11_clipboard.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.o.requires
@@ -281,17 +281,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_clipboard.c.o.provides.build
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.o: ../external/glfw-3.0.3/src/x11_gamma.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_gamma.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_gamma.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_gamma.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_gamma.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_gamma.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_gamma.c > CMakeFiles/GLFW_303.dir/x11_gamma.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_gamma.c > CMakeFiles/GLFW_303.dir/x11_gamma.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_gamma.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_gamma.c -o CMakeFiles/GLFW_303.dir/x11_gamma.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_gamma.c -o CMakeFiles/GLFW_303.dir/x11_gamma.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.o.requires
@@ -304,17 +304,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_gamma.c.o.provides.build: ex
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.o: ../external/glfw-3.0.3/src/x11_init.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_init.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_init.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_init.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_init.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_init.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_init.c > CMakeFiles/GLFW_303.dir/x11_init.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_init.c > CMakeFiles/GLFW_303.dir/x11_init.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_init.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_init.c -o CMakeFiles/GLFW_303.dir/x11_init.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_init.c -o CMakeFiles/GLFW_303.dir/x11_init.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.o.requires
@@ -327,17 +327,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_init.c.o.provides.build: ext
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.o: ../external/glfw-3.0.3/src/x11_joystick.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_joystick.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_joystick.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_joystick.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_joystick.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_joystick.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_joystick.c > CMakeFiles/GLFW_303.dir/x11_joystick.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_joystick.c > CMakeFiles/GLFW_303.dir/x11_joystick.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_joystick.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_joystick.c -o CMakeFiles/GLFW_303.dir/x11_joystick.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_joystick.c -o CMakeFiles/GLFW_303.dir/x11_joystick.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.o.requires
@@ -350,17 +350,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_joystick.c.o.provides.build:
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.o: ../external/glfw-3.0.3/src/x11_monitor.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_monitor.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_monitor.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_monitor.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_monitor.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_monitor.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_monitor.c > CMakeFiles/GLFW_303.dir/x11_monitor.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_monitor.c > CMakeFiles/GLFW_303.dir/x11_monitor.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_monitor.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_monitor.c -o CMakeFiles/GLFW_303.dir/x11_monitor.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_monitor.c -o CMakeFiles/GLFW_303.dir/x11_monitor.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.o.requires
@@ -373,17 +373,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_monitor.c.o.provides.build: 
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.o: ../external/glfw-3.0.3/src/x11_time.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_time.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_time.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_time.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_time.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_time.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_time.c > CMakeFiles/GLFW_303.dir/x11_time.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_time.c > CMakeFiles/GLFW_303.dir/x11_time.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_time.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_time.c -o CMakeFiles/GLFW_303.dir/x11_time.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_time.c -o CMakeFiles/GLFW_303.dir/x11_time.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.o.requires
@@ -396,17 +396,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_time.c.o.provides.build: ext
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.o: ../external/glfw-3.0.3/src/x11_window.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_window.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_window.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_window.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_window.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_window.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_window.c > CMakeFiles/GLFW_303.dir/x11_window.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_window.c > CMakeFiles/GLFW_303.dir/x11_window.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_window.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_window.c -o CMakeFiles/GLFW_303.dir/x11_window.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_window.c -o CMakeFiles/GLFW_303.dir/x11_window.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.o.requires
@@ -419,17 +419,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_window.c.o.provides.build: e
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.o: ../external/glfw-3.0.3/src/x11_unicode.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_unicode.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_unicode.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/x11_unicode.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_unicode.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/x11_unicode.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_unicode.c > CMakeFiles/GLFW_303.dir/x11_unicode.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_unicode.c > CMakeFiles/GLFW_303.dir/x11_unicode.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/x11_unicode.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/x11_unicode.c -o CMakeFiles/GLFW_303.dir/x11_unicode.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/x11_unicode.c -o CMakeFiles/GLFW_303.dir/x11_unicode.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.o.requires
@@ -442,17 +442,17 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/x11_unicode.c.o.provides.build: 
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/glx_context.c.o: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/flags.make
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/glx_context.c.o: ../external/glfw-3.0.3/src/glx_context.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/glx_context.c.o"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/glx_context.c.o   -c /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/glx_context.c
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/GLFW_303.dir/glx_context.c.o   -c /home/gustavo/git/vision/external/glfw-3.0.3/src/glx_context.c
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/glx_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLFW_303.dir/glx_context.c.i"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/glx_context.c > CMakeFiles/GLFW_303.dir/glx_context.c.i
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/gustavo/git/vision/external/glfw-3.0.3/src/glx_context.c > CMakeFiles/GLFW_303.dir/glx_context.c.i
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/glx_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLFW_303.dir/glx_context.c.s"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/learnopengl/external/glfw-3.0.3/src/glx_context.c -o CMakeFiles/GLFW_303.dir/glx_context.c.s
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/gustavo/git/vision/external/glfw-3.0.3/src/glx_context.c -o CMakeFiles/GLFW_303.dir/glx_context.c.s
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/glx_context.c.o.requires:
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/glx_context.c.o.requires
@@ -508,8 +508,8 @@ external/glfw-3.0.3/src/libglfw3.a: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.
 external/glfw-3.0.3/src/libglfw3.a: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/build.make
 external/glfw-3.0.3/src/libglfw3.a: external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libglfw3.a"
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && $(CMAKE_COMMAND) -P CMakeFiles/GLFW_303.dir/cmake_clean_target.cmake
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GLFW_303.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && $(CMAKE_COMMAND) -P CMakeFiles/GLFW_303.dir/cmake_clean_target.cmake
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GLFW_303.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/build: external/glfw-3.0.3/src/libglfw3.a
@@ -536,10 +536,10 @@ external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/requires: external/glfw-3.0.3/sr
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/requires
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clean:
-	cd /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src && $(CMAKE_COMMAND) -P CMakeFiles/GLFW_303.dir/cmake_clean.cmake
+	cd /home/gustavo/git/vision/build/external/glfw-3.0.3/src && $(CMAKE_COMMAND) -P CMakeFiles/GLFW_303.dir/cmake_clean.cmake
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/clean
 
 external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/depend:
-	cd /home/gustavo/git/learnopengl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gustavo/git/learnopengl /home/gustavo/git/learnopengl/external/glfw-3.0.3/src /home/gustavo/git/learnopengl/build /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src /home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gustavo/git/vision/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gustavo/git/vision /home/gustavo/git/vision/external/glfw-3.0.3/src /home/gustavo/git/vision/build /home/gustavo/git/vision/build/external/glfw-3.0.3/src /home/gustavo/git/vision/build/external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/depend
 

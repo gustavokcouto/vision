@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gustavo/git/learnopengl
+CMAKE_SOURCE_DIR = /home/gustavo/git/vision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gustavo/git/learnopengl/build
+CMAKE_BINARY_DIR = /home/gustavo/git/vision/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tutorial01_first_window.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/tutorial01_first_window.dir/flags.make
 
 CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o: CMakeFiles/tutorial01_first_window.dir/flags.make
 CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o: ../HelloWindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/learnopengl/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gustavo/git/vision/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o -c /home/gustavo/git/learnopengl/HelloWindow.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o -c /home/gustavo/git/vision/HelloWindow.cpp
 
 CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gustavo/git/learnopengl/HelloWindow.cpp > CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gustavo/git/vision/HelloWindow.cpp > CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.i
 
 CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gustavo/git/learnopengl/HelloWindow.cpp -o CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gustavo/git/vision/HelloWindow.cpp -o CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.s
 
 CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o.requires:
 .PHONY : CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o.requires
@@ -79,33 +79,33 @@ tutorial01_first_window_OBJECTS = \
 # External object files for target tutorial01_first_window
 tutorial01_first_window_EXTERNAL_OBJECTS =
 
-tutorial01_first_window: CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o
-tutorial01_first_window: CMakeFiles/tutorial01_first_window.dir/build.make
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libGLU.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libGL.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libSM.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libICE.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libX11.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libXext.so
-tutorial01_first_window: external/glfw-3.0.3/src/libglfw3.a
-tutorial01_first_window: external/libGLEW_190.a
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libGLU.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libXrandr.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libXi.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libXxf86vm.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/librt.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libm.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libGL.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libSM.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libICE.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libX11.so
-tutorial01_first_window: /usr/lib/i386-linux-gnu/libXext.so
-tutorial01_first_window: CMakeFiles/tutorial01_first_window.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable tutorial01_first_window"
+../tutorial01_first_window: CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o
+../tutorial01_first_window: CMakeFiles/tutorial01_first_window.dir/build.make
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libGLU.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libGL.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libSM.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libICE.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libX11.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libXext.so
+../tutorial01_first_window: external/glfw-3.0.3/src/libglfw3.a
+../tutorial01_first_window: external/libGLEW_190.a
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libGLU.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libXrandr.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libXi.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/librt.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libm.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libGL.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libSM.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libICE.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libX11.so
+../tutorial01_first_window: /usr/lib/x86_64-linux-gnu/libXext.so
+../tutorial01_first_window: CMakeFiles/tutorial01_first_window.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../tutorial01_first_window"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial01_first_window.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/tutorial01_first_window.dir/build: tutorial01_first_window
+CMakeFiles/tutorial01_first_window.dir/build: ../tutorial01_first_window
 .PHONY : CMakeFiles/tutorial01_first_window.dir/build
 
 CMakeFiles/tutorial01_first_window.dir/requires: CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o.requires
@@ -116,6 +116,6 @@ CMakeFiles/tutorial01_first_window.dir/clean:
 .PHONY : CMakeFiles/tutorial01_first_window.dir/clean
 
 CMakeFiles/tutorial01_first_window.dir/depend:
-	cd /home/gustavo/git/learnopengl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gustavo/git/learnopengl /home/gustavo/git/learnopengl /home/gustavo/git/learnopengl/build /home/gustavo/git/learnopengl/build /home/gustavo/git/learnopengl/build/CMakeFiles/tutorial01_first_window.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gustavo/git/vision/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gustavo/git/vision /home/gustavo/git/vision /home/gustavo/git/vision/build /home/gustavo/git/vision/build /home/gustavo/git/vision/build/CMakeFiles/tutorial01_first_window.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tutorial01_first_window.dir/depend
 

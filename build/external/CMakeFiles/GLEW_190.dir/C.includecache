@@ -34,7 +34,7 @@ GL/glew.h
 windows.h
 -
 
-/home/gustavo/git/learnopengl/external/glew-1.9.0/src/glew.c
+/home/gustavo/git/vision/external/glew-1.9.0/src/glew.c
 GL/glew.h
 -
 GL/wglew.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/gustavo/git/learnopengl/external/glfw-3.0.3/src
+# Install script for directory: /home/gustavo/git/vision/external/glfw-3.0.3/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gustavo/git/learnopengl/HelloWindow.cpp" "/home/gustavo/git/learnopengl/build/CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o"
+  "/home/gustavo/git/vision/HelloWindow.cpp" "/home/gustavo/git/vision/build/CMakeFiles/tutorial01_first_window.dir/HelloWindow.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,19 +19,16 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gustavo/git/learnopengl/build/external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/DependInfo.cmake"
-  "/home/gustavo/git/learnopengl/build/external/CMakeFiles/GLEW_190.dir/DependInfo.cmake"
+  "/home/gustavo/git/vision/build/external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir/DependInfo.cmake"
+  "/home/gustavo/git/vision/build/external/CMakeFiles/GLEW_190.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "../external/AntTweakBar-1.16/include"
-  "../external/glfw-3.0.3/include/GLFW"
-  "../external/glm-0.9.4.0"
+  "../external/glfw-3.0.3/include"
+  "../external/glm-0.9.7.0"
   "../external/glew-1.9.0/include"
-  "../external/assimp-3.0.1270/include"
-  "../external/bullet-2.81-rev2613/src"
-  "../."
+  "../include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
